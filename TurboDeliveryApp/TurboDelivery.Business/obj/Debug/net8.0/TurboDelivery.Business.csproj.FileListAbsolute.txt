@@ -1,0 +1,16 @@
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Business\bin\Debug\net8.0\TurboDelivery.Business.deps.json
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Business\bin\Debug\net8.0\TurboDelivery.Business.dll
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Business\bin\Debug\net8.0\TurboDelivery.Business.pdb
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Business\bin\Debug\net8.0\TurboDelivery.Entities.dll
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Business\bin\Debug\net8.0\TurboDelivery.Entities.pdb
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Business\obj\Debug\net8.0\TurboDelivery.Business.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Business\obj\Debug\net8.0\TurboDelivery.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Business\obj\Debug\net8.0\TurboDelivery.Business.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Business\obj\Debug\net8.0\TurboDelivery.Business.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Business\obj\Debug\net8.0\TurboDelivery.Business.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Business\obj\Debug\net8.0\TurboDelivery.Business.sourcelink.json
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Business\obj\Debug\net8.0\TurboDel.25D2FB44.Up2Date
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Business\obj\Debug\net8.0\TurboDelivery.Business.dll
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Business\obj\Debug\net8.0\refint\TurboDelivery.Business.dll
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Business\obj\Debug\net8.0\TurboDelivery.Business.pdb
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Business\obj\Debug\net8.0\ref\TurboDelivery.Business.dll

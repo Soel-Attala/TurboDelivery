@@ -1,0 +1,15 @@
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Entities\bin\Debug\net8.0\TurboDelivery.Entities.deps.json
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Entities\bin\Debug\net8.0\TurboDelivery.Entities.runtimeconfig.json
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Entities\bin\Debug\net8.0\TurboDelivery.Entities.dll
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Entities\bin\Debug\net8.0\TurboDelivery.Entities.pdb
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Entities\obj\Debug\net8.0\TurboDelivery.Entities.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Entities\obj\Debug\net8.0\TurboDelivery.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Entities\obj\Debug\net8.0\TurboDelivery.Entities.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Entities\obj\Debug\net8.0\TurboDelivery.Entities.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Entities\obj\Debug\net8.0\TurboDelivery.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Entities\obj\Debug\net8.0\TurboDelivery.Entities.sourcelink.json
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Entities\obj\Debug\net8.0\TurboDelivery.Entities.dll
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Entities\obj\Debug\net8.0\refint\TurboDelivery.Entities.dll
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Entities\obj\Debug\net8.0\TurboDelivery.Entities.pdb
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Entities\obj\Debug\net8.0\TurboDelivery.Entities.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\Programación\TurboDelivery\TurboDeliveryApp\TurboDelivery.Entities\obj\Debug\net8.0\ref\TurboDelivery.Entities.dll
