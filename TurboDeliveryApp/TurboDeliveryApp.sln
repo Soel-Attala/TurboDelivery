@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurboDeliveryApp", "TurboDeliveryApp\TurboDeliveryApp.csproj", "{3794B529-F05C-4414-B0A3-0A98D7DAFAD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TurboDelivery.Entities", "TurboDelivery.Entities\TurboDelivery.Entities.csproj", "{B28C4585-C031-4B96-8B07-FC4B47A2D2A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurboDelivery.Entities", "TurboDelivery.Entities\TurboDelivery.Entities.csproj", "{B28C4585-C031-4B96-8B07-FC4B47A2D2A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TurboDelivery.Business", "TurboDelivery.Business\TurboDelivery.Business.csproj", "{CB5A3A77-C112-4260-A1A3-AD5EC509DF78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurboDelivery.Business", "TurboDelivery.Business\TurboDelivery.Business.csproj", "{CB5A3A77-C112-4260-A1A3-AD5EC509DF78}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurboDeliveryAppWeb.Server", "TurboDeliveryAppWeb\TurboDeliveryAppWeb.Server\TurboDeliveryAppWeb.Server.csproj", "{55AD4A03-7EE6-4672-B9B7-DB0F47AB889B}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "turbodeliveryappweb.client", "TurboDeliveryAppWeb\turbodeliveryappweb.client\turbodeliveryappweb.client.esproj", "{18B98508-0AC9-4444-99C8-E01711BE9CF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3794B529-F05C-4414-B0A3-0A98D7DAFAD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3794B529-F05C-4414-B0A3-0A98D7DAFAD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3794B529-F05C-4414-B0A3-0A98D7DAFAD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3794B529-F05C-4414-B0A3-0A98D7DAFAD5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B28C4585-C031-4B96-8B07-FC4B47A2D2A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B28C4585-C031-4B96-8B07-FC4B47A2D2A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B28C4585-C031-4B96-8B07-FC4B47A2D2A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +25,16 @@ Global
 		{CB5A3A77-C112-4260-A1A3-AD5EC509DF78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB5A3A77-C112-4260-A1A3-AD5EC509DF78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB5A3A77-C112-4260-A1A3-AD5EC509DF78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55AD4A03-7EE6-4672-B9B7-DB0F47AB889B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55AD4A03-7EE6-4672-B9B7-DB0F47AB889B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55AD4A03-7EE6-4672-B9B7-DB0F47AB889B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55AD4A03-7EE6-4672-B9B7-DB0F47AB889B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18B98508-0AC9-4444-99C8-E01711BE9CF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B98508-0AC9-4444-99C8-E01711BE9CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B98508-0AC9-4444-99C8-E01711BE9CF9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{18B98508-0AC9-4444-99C8-E01711BE9CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B98508-0AC9-4444-99C8-E01711BE9CF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18B98508-0AC9-4444-99C8-E01711BE9CF9}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

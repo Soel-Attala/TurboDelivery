@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TurboDelivery.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+060944d04016aee974108379983b9f87ce19b04e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a8bd9bcfe28bf3d89529a89db6e058a00648027")]
 [assembly: System.Reflection.AssemblyProductAttribute("TurboDelivery.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TurboDelivery.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

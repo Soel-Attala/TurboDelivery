@@ -3,72 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3794B529-F05C-4414-B0A3-0A98D7DAFAD5}|TurboDeliveryApp\\TurboDeliveryApp.csproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodeliveryapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3794B529-F05C-4414-B0A3-0A98D7DAFAD5}|TurboDeliveryApp\\TurboDeliveryApp.csproj|solutionrelative:turbodeliveryapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodeliveryappweb\\turbodeliveryappweb.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|solutionrelative:turbodeliveryappweb\\turbodeliveryappweb.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB5A3A77-C112-4260-A1A3-AD5EC509DF78}|TurboDelivery.Business\\TurboDelivery.Business.csproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodelivery.business\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB5A3A77-C112-4260-A1A3-AD5EC509DF78}|TurboDelivery.Business\\TurboDelivery.Business.csproj|solutionrelative:turbodelivery.business\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodeliveryappweb\\turbodeliveryappweb.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|solutionrelative:turbodeliveryappweb\\turbodeliveryappweb.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3794B529-F05C-4414-B0A3-0A98D7DAFAD5}|TurboDeliveryApp\\TurboDeliveryApp.csproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodeliveryapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3794B529-F05C-4414-B0A3-0A98D7DAFAD5}|TurboDeliveryApp\\TurboDeliveryApp.csproj|solutionrelative:turbodeliveryapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodeliveryappweb\\turbodeliveryappweb.client\\src\\components\\mapcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|solutionrelative:turbodeliveryappweb\\turbodeliveryappweb.client\\src\\components\\mapcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB5A3A77-C112-4260-A1A3-AD5EC509DF78}|TurboDelivery.Business\\TurboDelivery.Business.csproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodelivery.business\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB5A3A77-C112-4260-A1A3-AD5EC509DF78}|TurboDelivery.Business\\TurboDelivery.Business.csproj|solutionrelative:turbodelivery.business\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB5A3A77-C112-4260-A1A3-AD5EC509DF78}|TurboDelivery.Business\\TurboDelivery.Business.csproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodelivery.business\\services\\userorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB5A3A77-C112-4260-A1A3-AD5EC509DF78}|TurboDelivery.Business\\TurboDelivery.Business.csproj|solutionrelative:turbodelivery.business\\services\\userorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3794B529-F05C-4414-B0A3-0A98D7DAFAD5}|TurboDeliveryApp\\TurboDeliveryApp.csproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodeliveryapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3794B529-F05C-4414-B0A3-0A98D7DAFAD5}|TurboDeliveryApp\\TurboDeliveryApp.csproj|solutionrelative:turbodeliveryapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3794B529-F05C-4414-B0A3-0A98D7DAFAD5}|TurboDeliveryApp\\TurboDeliveryApp.csproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodeliveryapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3794B529-F05C-4414-B0A3-0A98D7DAFAD5}|TurboDeliveryApp\\TurboDeliveryApp.csproj|solutionrelative:turbodeliveryapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB5A3A77-C112-4260-A1A3-AD5EC509DF78}|TurboDelivery.Business\\TurboDelivery.Business.csproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodelivery.business\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB5A3A77-C112-4260-A1A3-AD5EC509DF78}|TurboDelivery.Business\\TurboDelivery.Business.csproj|solutionrelative:turbodelivery.business\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB5A3A77-C112-4260-A1A3-AD5EC509DF78}|TurboDelivery.Business\\TurboDelivery.Business.csproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodelivery.business\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB5A3A77-C112-4260-A1A3-AD5EC509DF78}|TurboDelivery.Business\\TurboDelivery.Business.csproj|solutionrelative:turbodelivery.business\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB5A3A77-C112-4260-A1A3-AD5EC509DF78}|TurboDelivery.Business\\TurboDelivery.Business.csproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodelivery.business\\dtos\\userorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB5A3A77-C112-4260-A1A3-AD5EC509DF78}|TurboDelivery.Business\\TurboDelivery.Business.csproj|solutionrelative:turbodelivery.business\\dtos\\userorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB5A3A77-C112-4260-A1A3-AD5EC509DF78}|TurboDelivery.Business\\TurboDelivery.Business.csproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodelivery.business\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB5A3A77-C112-4260-A1A3-AD5EC509DF78}|TurboDelivery.Business\\TurboDelivery.Business.csproj|solutionrelative:turbodelivery.business\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB5A3A77-C112-4260-A1A3-AD5EC509DF78}|TurboDelivery.Business\\TurboDelivery.Business.csproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodelivery.business\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB5A3A77-C112-4260-A1A3-AD5EC509DF78}|TurboDelivery.Business\\TurboDelivery.Business.csproj|solutionrelative:turbodelivery.business\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3794B529-F05C-4414-B0A3-0A98D7DAFAD5}|TurboDeliveryApp\\TurboDeliveryApp.csproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodeliveryapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3794B529-F05C-4414-B0A3-0A98D7DAFAD5}|TurboDeliveryApp\\TurboDeliveryApp.csproj|solutionrelative:turbodeliveryapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3794B529-F05C-4414-B0A3-0A98D7DAFAD5}|TurboDeliveryApp\\TurboDeliveryApp.csproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodeliveryapp\\controllers\\userordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3794B529-F05C-4414-B0A3-0A98D7DAFAD5}|TurboDeliveryApp\\TurboDeliveryApp.csproj|solutionrelative:turbodeliveryapp\\controllers\\userordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B28C4585-C031-4B96-8B07-FC4B47A2D2A3}|TurboDelivery.Entities\\TurboDelivery.Entities.csproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodelivery.entities\\database\\turbodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B28C4585-C031-4B96-8B07-FC4B47A2D2A3}|TurboDelivery.Entities\\TurboDelivery.Entities.csproj|solutionrelative:turbodelivery.entities\\database\\turbodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B28C4585-C031-4B96-8B07-FC4B47A2D2A3}|TurboDelivery.Entities\\TurboDelivery.Entities.csproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodelivery.entities\\turbodelivery.entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B28C4585-C031-4B96-8B07-FC4B47A2D2A3}|TurboDelivery.Entities\\TurboDelivery.Entities.csproj|solutionrelative:turbodelivery.entities\\turbodelivery.entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3794B529-F05C-4414-B0A3-0A98D7DAFAD5}|TurboDeliveryApp\\TurboDeliveryApp.csproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodeliveryapp\\turbodeliveryapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3794B529-F05C-4414-B0A3-0A98D7DAFAD5}|TurboDeliveryApp\\TurboDeliveryApp.csproj|solutionrelative:turbodeliveryapp\\turbodeliveryapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{55AD4A03-7EE6-4672-B9B7-DB0F47AB889B}|TurboDeliveryAppWeb\\TurboDeliveryAppWeb.Server\\TurboDeliveryAppWeb.Server.csproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodeliveryappweb\\turbodeliveryappweb.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AD4A03-7EE6-4672-B9B7-DB0F47AB889B}|TurboDeliveryAppWeb\\TurboDeliveryAppWeb.Server\\TurboDeliveryAppWeb.Server.csproj|solutionrelative:turbodeliveryappweb\\turbodeliveryappweb.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,217 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryApp\\Program.cs",
-              "RelativeDocumentMoniker": "TurboDeliveryApp\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryApp\\Program.cs",
-              "RelativeToolTip": "TurboDeliveryApp\\Program.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAACwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T18:45:25.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDelivery.Business\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "TurboDelivery.Business\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDelivery.Business\\Services\\AuthService.cs",
-              "RelativeToolTip": "TurboDelivery.Business\\Services\\AuthService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T18:40:33.134Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserOrderService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDelivery.Business\\Services\\UserOrderService.cs",
-              "RelativeDocumentMoniker": "TurboDelivery.Business\\Services\\UserOrderService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDelivery.Business\\Services\\UserOrderService.cs",
-              "RelativeToolTip": "TurboDelivery.Business\\Services\\UserOrderService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T18:38:38.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryApp\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "TurboDeliveryApp\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryApp\\Controllers\\UserController.cs",
-              "RelativeToolTip": "TurboDeliveryApp\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAwwBMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T18:33:45.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDelivery.Business\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "TurboDelivery.Business\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDelivery.Business\\Services\\UserService.cs",
-              "RelativeToolTip": "TurboDelivery.Business\\Services\\UserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T18:38:09.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryApp\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "TurboDeliveryApp\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryApp\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "TurboDeliveryApp\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T18:36:55.415Z",
+              "Title": "vite.config.js",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\vite.config.js",
+              "RelativeDocumentMoniker": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\vite.config.js",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\vite.config.js",
+              "RelativeToolTip": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\vite.config.js",
+              "ViewState": "AQIAACoAAAAAAAAAAAAkwD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-27T05:21:04.053Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDelivery.Business\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "TurboDelivery.Business\\Services\\OrderService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDelivery.Business\\Services\\OrderService.cs",
-              "RelativeToolTip": "TurboDelivery.Business\\Services\\OrderService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T18:38:22.034Z",
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\App.jsx",
+              "RelativeDocumentMoniker": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\App.jsx",
+              "RelativeToolTip": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\App.jsx",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAqwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-07-27T04:57:52.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDelivery.Business\\DTOs\\UserDTO.cs",
-              "RelativeDocumentMoniker": "TurboDelivery.Business\\DTOs\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDelivery.Business\\DTOs\\UserDTO.cs",
-              "RelativeToolTip": "TurboDelivery.Business\\DTOs\\UserDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
+              "DocumentIndex": 2,
+              "Title": "MapComponent.jsx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\MapComponent.jsx",
+              "RelativeDocumentMoniker": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\MapComponent.jsx",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\MapComponent.jsx",
+              "RelativeToolTip": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\MapComponent.jsx",
+              "ViewState": "AQIAADkAAAAAAAAAAAAkwEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-07-27T04:55:23.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\TurboDeliveryAppWeb.Server\\Program.cs",
+              "RelativeDocumentMoniker": "TurboDeliveryAppWeb\\TurboDeliveryAppWeb.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\TurboDeliveryAppWeb.Server\\Program.cs",
+              "RelativeToolTip": "TurboDeliveryAppWeb\\TurboDeliveryAppWeb.Server\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T18:43:10.135Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserOrderDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDelivery.Business\\DTOs\\UserOrderDTO.cs",
-              "RelativeDocumentMoniker": "TurboDelivery.Business\\DTOs\\UserOrderDTO.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDelivery.Business\\DTOs\\UserOrderDTO.cs",
-              "RelativeToolTip": "TurboDelivery.Business\\DTOs\\UserOrderDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T18:43:49.209Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDelivery.Business\\DTOs\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "TurboDelivery.Business\\DTOs\\LoginDTO.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDelivery.Business\\DTOs\\LoginDTO.cs",
-              "RelativeToolTip": "TurboDelivery.Business\\DTOs\\LoginDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T18:44:19.458Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OrderDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDelivery.Business\\DTOs\\OrderDTO.cs",
-              "RelativeDocumentMoniker": "TurboDelivery.Business\\DTOs\\OrderDTO.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDelivery.Business\\DTOs\\OrderDTO.cs",
-              "RelativeToolTip": "TurboDelivery.Business\\DTOs\\OrderDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T18:44:38.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryApp\\appsettings.json",
-              "RelativeDocumentMoniker": "TurboDeliveryApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryApp\\appsettings.json",
-              "RelativeToolTip": "TurboDeliveryApp\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-02T18:44:49.877Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryApp\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "TurboDeliveryApp\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryApp\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "TurboDeliveryApp\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAgwDIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T18:37:49.359Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserOrderController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryApp\\Controllers\\UserOrderController.cs",
-              "RelativeDocumentMoniker": "TurboDeliveryApp\\Controllers\\UserOrderController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryApp\\Controllers\\UserOrderController.cs",
-              "RelativeToolTip": "TurboDeliveryApp\\Controllers\\UserOrderController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAIcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T18:35:45.309Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "TurboDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDelivery.Entities\\Database\\TurboDbContext.cs",
-              "RelativeDocumentMoniker": "TurboDelivery.Entities\\Database\\TurboDbContext.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDelivery.Entities\\Database\\TurboDbContext.cs",
-              "RelativeToolTip": "TurboDelivery.Entities\\Database\\TurboDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T18:29:59.696Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TurboDelivery.Entities.csproj",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDelivery.Entities\\TurboDelivery.Entities.csproj",
-              "RelativeDocumentMoniker": "TurboDelivery.Entities\\TurboDelivery.Entities.csproj",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDelivery.Entities\\TurboDelivery.Entities.csproj",
-              "RelativeToolTip": "TurboDelivery.Entities\\TurboDelivery.Entities.csproj",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAowBkAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-02T18:26:07.102Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "TurboDeliveryApp.csproj",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryApp\\TurboDeliveryApp.csproj",
-              "RelativeDocumentMoniker": "TurboDeliveryApp\\TurboDeliveryApp.csproj",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryApp\\TurboDeliveryApp.csproj",
-              "RelativeToolTip": "TurboDeliveryApp\\TurboDeliveryApp.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-02T18:25:16.599Z"
+              "WhenOpened": "2024-07-18T21:24:05.014Z",
+              "EditorCaption": ""
             }
           ]
         }
