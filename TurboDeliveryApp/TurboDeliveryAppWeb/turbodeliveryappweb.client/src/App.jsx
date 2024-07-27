@@ -12,7 +12,7 @@ function App() {
     return (
         <div>
             <h1>Orders Map</h1>
-            <MapComponent apiKey="TU_API_KEY_AQUI" orders={orders} />
+            <MapComponent apiKey="AIzaSyArfkZl9tkhUzoZJDMH-fkcBNlnErthRnE" orders={orders} />
         </div>
     );
 

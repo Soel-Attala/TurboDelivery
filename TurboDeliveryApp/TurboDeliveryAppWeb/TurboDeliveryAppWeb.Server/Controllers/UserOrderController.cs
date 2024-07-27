@@ -1,7 +1,7 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
 using TurboDelivery.Business.Services;
 using TurboDelivery.Entities.Models;
 
@@ -27,7 +27,8 @@ namespace TurboDeliveryAppWeb.Server.Controllers
 
                 if (result != null)
                 {
-                    return CreatedAtAction(nameof(GetRelationshipById), new { id = result.Id }, new { message = "Relationship created successfully", relationshipId = result.Id });
+                    // Retorna una respuesta creada si el resultado es exitoso
+                    return CreatedAtAction(nameof(GetAllRelationships), new { id = result.Id }, new { message = "Relationship created successfully", relationshipId = result.Id });
                 }
                 else
                 {
@@ -125,11 +126,6 @@ namespace TurboDeliveryAppWeb.Server.Controllers
                 return BadRequest(new { message = $"No se pudo obtener las relaciones del empleado: {ex.Message}" });
             }
         }
-
-        // Método auxiliar para redirección en CreateRelationship
-        private IActionResult GetRelationshipById(int id)
-        {
-            return RedirectToAction(nameof(GetRelationshipById), new { id });
-        }
     }
 }
+
