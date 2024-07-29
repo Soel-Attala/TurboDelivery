@@ -1,0 +1,17 @@
+/* OrderDetail.css */
+
+/* Contenedor del detalle */
+.order-detail-container {
+    padding: 20px;
+}
+
+/* Títulos */
+.order-detail-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Detalles */
+.order-detail-item {
+    margin-bottom: 15px;
+}

@@ -1,0 +1,22 @@
+/* Navbar.css */
+
+/* Contenedor del navbar */
+.navbar-container {
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+/* Enlaces del navbar */
+.navbar-links {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+    .navbar-link:hover {
+        text-decoration: underline;
+    }

@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodeliveryappweb\\turbodeliveryappweb.client\\src\\components\\auth\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|solutionrelative:turbodeliveryappweb\\turbodeliveryappweb.client\\src\\components\\auth\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodeliveryappweb\\turbodeliveryappweb.client\\src\\components\\common\\navbar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|solutionrelative:turbodeliveryappweb\\turbodeliveryappweb.client\\src\\components\\common\\navbar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodeliveryappweb\\turbodeliveryappweb.client\\src\\components\\admin\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|solutionrelative:turbodeliveryappweb\\turbodeliveryappweb.client\\src\\components\\admin\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodeliveryappweb\\turbodeliveryappweb.client\\src\\components\\common\\header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|solutionrelative:turbodeliveryappweb\\turbodeliveryappweb.client\\src\\components\\common\\header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodeliveryappweb\\turbodeliveryappweb.client\\src\\index.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|solutionrelative:turbodeliveryappweb\\turbodeliveryappweb.client\\src\\index.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodeliveryappweb\\turbodeliveryappweb.client\\src\\components\\common\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|solutionrelative:turbodeliveryappweb\\turbodeliveryappweb.client\\src\\components\\common\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodeliveryappweb\\turbodeliveryappweb.client\\src\\components\\common\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|solutionrelative:turbodeliveryappweb\\turbodeliveryappweb.client\\src\\components\\common\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodeliveryappweb\\turbodeliveryappweb.client\\src\\components\\common\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|solutionrelative:turbodeliveryappweb\\turbodeliveryappweb.client\\src\\components\\common\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55AD4A03-7EE6-4672-B9B7-DB0F47AB889B}|TurboDeliveryAppWeb\\TurboDeliveryAppWeb.Server\\TurboDeliveryAppWeb.Server.csproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodeliveryappweb\\turbodeliveryappweb.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55AD4A03-7EE6-4672-B9B7-DB0F47AB889B}|TurboDeliveryAppWeb\\TurboDeliveryAppWeb.Server\\TurboDeliveryAppWeb.Server.csproj|solutionrelative:turbodeliveryappweb\\turbodeliveryappweb.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodeliveryappweb\\turbodeliveryappweb.client\\src\\components\\common\\mapcomponent.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|solutionrelative:turbodeliveryappweb\\turbodeliveryappweb.client\\src\\components\\common\\mapcomponent.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.css",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\auth\\Login.css",
-              "RelativeDocumentMoniker": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\auth\\Login.css",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\auth\\Login.css",
-              "RelativeToolTip": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\auth\\Login.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-29T16:42:33.66Z",
+              "DocumentIndex": 1,
+              "Title": "Header.jsx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\common\\Header.jsx",
+              "RelativeDocumentMoniker": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\common\\Header.jsx",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\common\\Header.jsx",
+              "RelativeToolTip": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\common\\Header.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-07-29T16:48:42.414Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dashboard.css",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\admin\\Dashboard.css",
-              "RelativeDocumentMoniker": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\admin\\Dashboard.css",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\admin\\Dashboard.css",
-              "RelativeToolTip": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\admin\\Dashboard.css",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAiwCQAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Navbar.css",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\common\\Navbar.css",
+              "RelativeDocumentMoniker": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\common\\Navbar.css",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\common\\Navbar.css",
+              "RelativeToolTip": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\common\\Navbar.css",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-29T16:42:05.49Z",
+              "WhenOpened": "2024-07-29T16:47:36.036Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.jsx",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\Index.jsx",
-              "RelativeDocumentMoniker": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\Index.jsx",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\Index.jsx",
-              "RelativeToolTip": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\Index.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-29T16:39:34.46Z",
+              "Title": "Footer.css",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\common\\Footer.css",
+              "RelativeDocumentMoniker": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\common\\Footer.css",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\common\\Footer.css",
+              "RelativeToolTip": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\common\\Footer.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-29T16:47:00.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "NavBar.jsx",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\common\\NavBar.jsx",
-              "RelativeDocumentMoniker": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\common\\NavBar.jsx",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\common\\NavBar.jsx",
-              "RelativeToolTip": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\common\\NavBar.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-29T16:38:52.8Z",
+              "Title": "Home.css",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\common\\Home.css",
+              "RelativeDocumentMoniker": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\common\\Home.css",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\common\\Home.css",
+              "RelativeToolTip": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\common\\Home.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-29T16:46:41.229Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\TurboDeliveryAppWeb.Server\\Program.cs",
-              "RelativeDocumentMoniker": "TurboDeliveryAppWeb\\TurboDeliveryAppWeb.Server\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\TurboDeliveryAppWeb.Server\\Program.cs",
-              "RelativeToolTip": "TurboDeliveryAppWeb\\TurboDeliveryAppWeb.Server\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T21:24:05.014Z",
+              "Title": "MapComponent.css",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\common\\MapComponent.css",
+              "RelativeDocumentMoniker": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\common\\MapComponent.css",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\common\\MapComponent.css",
+              "RelativeToolTip": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\common\\MapComponent.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-29T16:46:14.841Z",
               "EditorCaption": ""
             }
           ]

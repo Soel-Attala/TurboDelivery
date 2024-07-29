@@ -1,0 +1,7 @@
+/* MapComponent.css */
+
+/* Contenedor del mapa */
+.map-container {
+    height: 400px;
+    width: 100%;
+}

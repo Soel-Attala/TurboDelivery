@@ -1,0 +1,22 @@
+/* OrderForm.css */
+
+/* Contenedor del formulario */
+.order-form-container {
+    padding: 20px;
+}
+
+/* Títulos */
+.order-form-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Campos del formulario */
+.order-form-field {
+    margin-bottom: 15px;
+}
+
+/* Botones */
+.order-form-button {
+    margin-top: 20px;
+}

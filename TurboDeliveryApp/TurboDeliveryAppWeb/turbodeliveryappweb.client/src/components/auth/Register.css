@@ -1,0 +1,27 @@
+/* Register.css */
+
+/* Contenedor del formulario */
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Formulario */
+.register-form {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Campos de entrada */
+.input-field {
+    margin-bottom: 15px;
+}
+
+/* Botones */
+.register-button {
+    margin-top: 20px;
+}

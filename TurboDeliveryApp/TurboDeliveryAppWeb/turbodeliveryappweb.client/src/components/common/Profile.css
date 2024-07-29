@@ -1,0 +1,17 @@
+/* Profile.css */
+
+/* Contenedor del perfil */
+.profile-container {
+    padding: 20px;
+}
+
+/* Títulos */
+.profile-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Campos del perfil */
+.profile-field {
+    margin-bottom: 15px;
+}

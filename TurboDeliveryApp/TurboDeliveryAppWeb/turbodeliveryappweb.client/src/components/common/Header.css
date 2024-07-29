@@ -1,0 +1,15 @@
+.link {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+    .link:hover {
+        color: #FFC107;
+    }
+
+.logo {
+    height: 40px;
+    margin-right: 15px;
+}
