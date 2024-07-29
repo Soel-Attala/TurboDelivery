@@ -1,0 +1,36 @@
+/* Dashboard.css */
+
+/* Contenedor principal */
+.dashboard-container {
+    padding: 20px;
+}
+
+/* Títulos */
+.dashboard-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.dashboard-subtitle {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+/* Listas */
+.dashboard-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dashboard-list-item {
+    margin-bottom: 10px;
+}
+
+/* Sección de costos y ganancias */
+.cost-revenue-section {
+    margin-top: 20px;
+}
+
+.cost-revenue-item {
+    margin-bottom: 10px;
+}

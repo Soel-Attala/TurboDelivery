@@ -9,9 +9,10 @@ const MapComponent = ({ apiKey, orders }) => {
     };
 
     const center = {
-        lat: -34.603722, // Cambia esto según la ubicación central deseada
-        lng: -58.381592
+        lat: -34.6177,
+        lng: -68.3301
     };
+
 
     const [locations, setLocations] = useState([]);
 

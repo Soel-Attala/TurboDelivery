@@ -1,0 +1,27 @@
+/* Login.css */
+
+/* Contenedor del formulario */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Formulario */
+.login-form {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Campos de entrada */
+.input-field {
+    margin-bottom: 15px;
+}
+
+/* Botones */
+.login-button {
+    margin-top: 20px;
+}
