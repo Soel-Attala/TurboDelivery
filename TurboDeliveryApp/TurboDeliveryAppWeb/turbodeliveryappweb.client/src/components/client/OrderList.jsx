@@ -1,9 +1,14 @@
-import { useState, useEffect } from 'react';
-import { Container, Typography, List, ListItem, ListItemText } from '@mui/material';
-import NavBar from '../Common/NavBar';
-import Footer from '../Common/Footer';
+import  { useState, useEffect } from 'react';
+import { Container, Typography, makeStyles } from '@mui/material';
+
+const useStyles = makeStyles((theme) => ({
+    root: {
+        padding: theme.spacing(3),
+    },
+}));
 
 function OrderList() {
+    const classes = useStyles();
     const [orders, setOrders] = useState([]);
 
     useEffect(() => {
@@ -12,32 +17,23 @@ function OrderList() {
 
     const fetchOrders = async () => {
         try {
-            const response = await fetch('/api/order/GetOrders');
-            const data = await response.json();
-            setOrders(data);
+            const response = await fetch('/api/orders');
+            const result = await response.json();
+            setOrders(result);
         } catch (error) {
             console.error('Error fetching orders:', error);
         }
     };
 
     return (
-        <div>
-            <NavBar />
-            <Container>
-                <Typography variant="h4">Order List</Typography>
-                <List>
-                    {orders.map(order => (
-                        <ListItem key={order.id}>
-                            <ListItemText
-                                primary={`Order ID: ${order.id}`}
-                                secondary={`Items: ${order.items} - Address: ${order.address}`}
-                            />
-                        </ListItem>
-                    ))}
-                </List>
-            </Container>
-            <Footer />
-        </div>
+        <Container className={classes.root}>
+            <Typography variant="h1">Order List</Typography>
+            <ul>
+                {orders.map(order => (
+                    <li key={order.id}>{order.clientName} - {order.items}</li>
+                ))}
+            </ul>
+        </Container>
     );
 }
 

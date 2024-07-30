@@ -14,7 +14,11 @@
     <PackageJsonDependenciesMuiIconsMaterial Condition="$(PackageJsonDependenciesMuiIconsMaterial) == ''">^5.16.5</PackageJsonDependenciesMuiIconsMaterial>
     <PackageJsonDependenciesMuiMaterial Condition="$(PackageJsonDependenciesMuiMaterial) == ''">^5.16.5</PackageJsonDependenciesMuiMaterial>
     <PackageJsonDependenciesReactGoogleMapsApi Condition="$(PackageJsonDependenciesReactGoogleMapsApi) == ''">^2.19.3</PackageJsonDependenciesReactGoogleMapsApi>
+    <PackageJsonDependenciesAxios Condition="$(PackageJsonDependenciesAxios) == ''">^1.7.2</PackageJsonDependenciesAxios>
+    <PackageJsonDependenciesChartJs Condition="$(PackageJsonDependenciesChartJs) == ''">^4.4.3</PackageJsonDependenciesChartJs>
+    <PackageJsonDependenciesPropTypes Condition="$(PackageJsonDependenciesPropTypes) == ''">^15.8.1</PackageJsonDependenciesPropTypes>
     <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">^18.3.1</PackageJsonDependenciesReact>
+    <PackageJsonDependenciesReactChartjs2 Condition="$(PackageJsonDependenciesReactChartjs2) == ''">^5.2.0</PackageJsonDependenciesReactChartjs2>
     <PackageJsonDependenciesReactDom Condition="$(PackageJsonDependenciesReactDom) == ''">^18.3.1</PackageJsonDependenciesReactDom>
     <PackageJsonDependenciesReactRouterDom Condition="$(PackageJsonDependenciesReactRouterDom) == ''">^6.25.1</PackageJsonDependenciesReactRouterDom>
     <PackageJsonDevdependenciesTypesReact Condition="$(PackageJsonDevdependenciesTypesReact) == ''">^18.3.3</PackageJsonDevdependenciesTypesReact>

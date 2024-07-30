@@ -1,25 +1,38 @@
-import { Container, Typography, Link } from '@mui/material';
-import { Facebook, Twitter, Instagram } from '@mui/icons-material';
+
+import { Container, Typography, makeStyles } from '@mui/material';
+
+const useStyles = makeStyles((theme) => ({
+    footer: {
+        padding: theme.spacing(3),
+        marginTop: theme.spacing(4),
+        backgroundColor: '#3f51b5',
+        color: '#fff',
+    },
+    socialIcons: {
+        margin: theme.spacing(1),
+    },
+}));
 
 function Footer() {
+    const classes = useStyles();
+
     return (
-        <footer style={{ padding: '20px 0', textAlign: 'center', background: '#f5f5f5' }}>
+        <footer className={classes.footer}>
             <Container>
-                <Typography variant="body1">© 2024 Turbo Delivery</Typography>
-                <div style={{ marginTop: '10px' }}>
-                    <Link href="https://facebook.com" target="_blank" color="inherit">
-                        <Facebook />
-                    </Link>
-                    <Link href="https://twitter.com" target="_blank" color="inherit">
-                        <Twitter />
-                    </Link>
-                    <Link href="https://instagram.com" target="_blank" color="inherit">
-                        <Instagram />
-                    </Link>
-                </div>
-                <Typography variant="body2" color="textSecondary" style={{ marginTop: '10px' }}>
-                    Contact: info@turbodelivery.com
+                <Typography variant="body1" align="center">
+                    © 2024 Turbo Delivery. All rights reserved.
                 </Typography>
+                <div className={classes.socialIcons}>
+                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                        <img src="/path/to/facebook-icon.png" alt="Facebook" />
+                    </a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                        <img src="/path/to/twitter-icon.png" alt="Twitter" />
+                    </a>
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                        <img src="/path/to/instagram-icon.png" alt="Instagram" />
+                    </a>
+                </div>
             </Container>
         </footer>
     );

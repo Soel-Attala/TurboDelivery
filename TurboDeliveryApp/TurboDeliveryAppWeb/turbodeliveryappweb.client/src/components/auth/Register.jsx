@@ -1,76 +1,125 @@
 import { useState } from 'react';
-import { Container, TextField, Button, Typography } from '@mui/material';
-import NavBar from '../Common/NavBar';
-import Footer from '../Common/Footer';
+import { Container, TextField, Button, Typography, Alert } from '@mui/material';
+import axios from '../Config/axiosConfig';
 
-function Register() {
-    const [user, setUser] = useState({
-        name: '',
+
+const Register = () => {
+    const [formData, setFormData] = useState({
+        username: '',
+        password: '',
         email: '',
-        password: ''
+        firstName: '',
+        lastName: '',
+        address: '',
+        phoneNumber: '',
     });
+    const [error, setError] = useState('');
+    const [success, setSuccess] = useState('');
+    const [loading, setLoading] = useState(false);
 
     const handleChange = (e) => {
-        const { name, value } = e.target;
-        setUser({ ...user, [name]: value });
+        setFormData({
+            ...formData,
+            [e.target.name]: e.target.value,
+        });
     };
 
     const handleRegister = async (e) => {
         e.preventDefault();
+        setLoading(true);
+        setError('');
+        setSuccess('');
+
         try {
-            const response = await fetch('/api/auth/register', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(user)
+            const response = await axios.post('/user/CreateUser', formData);
+            const data = response.data;
+            setSuccess(data.message);
+            // Limpiar el formulario si es necesario
+            setFormData({
+                username: '',
+                password: '',
+                email: '',
+                firstName: '',
+                lastName: '',
+                address: '',
+                phoneNumber: '',
             });
-            if (response.ok) {
-                alert('Registration successful!');
-                // Redirect or handle post-registration logic here
-            }
         } catch (error) {
-            console.error('Error registering:', error);
+            setError(error.response.data.message);
+        } finally {
+            setLoading(false);
         }
     };
 
     return (
-        <div>
-            <NavBar />
-            <Container>
-                <Typography variant="h4">Register</Typography>
-                <form onSubmit={handleRegister}>
-                    <TextField
-                        label="Name"
-                        name="name"
-                        value={user.name}
-                        onChange={handleChange}
-                        fullWidth
-                        margin="normal"
-                    />
-                    <TextField
-                        label="Email"
-                        name="email"
-                        value={user.email}
-                        onChange={handleChange}
-                        fullWidth
-                        margin="normal"
-                    />
-                    <TextField
-                        label="Password"
-                        type="password"
-                        name="password"
-                        value={user.password}
-                        onChange={handleChange}
-                        fullWidth
-                        margin="normal"
-                    />
-                    <Button type="submit" variant="contained" color="primary">Register</Button>
-                </form>
-            </Container>
-            <Footer />
-        </div>
+        <Container maxWidth="sm">
+            <Typography variant="h4" gutterBottom>Register</Typography>
+            <form onSubmit={handleRegister}>
+                <TextField
+                    label="Username"
+                    name="username"
+                    fullWidth
+                    margin="normal"
+                    value={formData.username}
+                    onChange={handleChange}
+                />
+                <TextField
+                    label="Password"
+                    name="password"
+                    type="password"
+                    fullWidth
+                    margin="normal"
+                    value={formData.password}
+                    onChange={handleChange}
+                />
+                <TextField
+                    label="Email"
+                    name="email"
+                    fullWidth
+                    margin="normal"
+                    value={formData.email}
+                    onChange={handleChange}
+                />
+                <TextField
+                    label="First Name"
+                    name="firstName"
+                    fullWidth
+                    margin="normal"
+                    value={formData.firstName}
+                    onChange={handleChange}
+                />
+                <TextField
+                    label="Last Name"
+                    name="lastName"
+                    fullWidth
+                    margin="normal"
+                    value={formData.lastName}
+                    onChange={handleChange}
+                />
+                <TextField
+                    label="Address"
+                    name="address"
+                    fullWidth
+                    margin="normal"
+                    value={formData.address}
+                    onChange={handleChange}
+                />
+                <TextField
+                    label="Phone Number"
+                    name="phoneNumber"
+                    fullWidth
+                    margin="normal"
+                    value={formData.phoneNumber}
+                    onChange={handleChange}
+                />
+                {error && <Alert severity="error">{error}</Alert>}
+                {success && <Alert severity="success">{success}</Alert>}
+                <Button type="submit" variant="contained" color="primary" fullWidth disabled={loading}>
+                    {loading ? 'Loading...' : 'Register'}
+                </Button>
+            </form>
+        </Container>
     );
-}
+};
 
 export default Register;

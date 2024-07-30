@@ -7,9 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TurboDelivery.Entities", "T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TurboDelivery.Business", "TurboDelivery.Business\TurboDelivery.Business.csproj", "{CB5A3A77-C112-4260-A1A3-AD5EC509DF78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurboDeliveryAppWeb.Server", "TurboDeliveryAppWeb\TurboDeliveryAppWeb.Server\TurboDeliveryAppWeb.Server.csproj", "{55AD4A03-7EE6-4672-B9B7-DB0F47AB889B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TurboDeliveryAppWeb.Server", "TurboDeliveryAppWeb\TurboDeliveryAppWeb.Server\TurboDeliveryAppWeb.Server.csproj", "{55AD4A03-7EE6-4672-B9B7-DB0F47AB889B}"
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "turbodeliveryappweb.client", "TurboDeliveryAppWeb\turbodeliveryappweb.client\turbodeliveryappweb.client.esproj", "{18B98508-0AC9-4444-99C8-E01711BE9CF9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CB5A3A77-C112-4260-A1A3-AD5EC509DF78} = {CB5A3A77-C112-4260-A1A3-AD5EC509DF78}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

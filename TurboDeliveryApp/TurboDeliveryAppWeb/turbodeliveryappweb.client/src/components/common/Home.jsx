@@ -1,5 +1,5 @@
 import { Container, Typography, Button } from '@mui/material';
-import NavBar from '../Common/NavBar';
+import NavBar from '../Common/Navbar';
 import Footer from '../Common/Footer';
 
 function Home() {

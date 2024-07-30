@@ -1,0 +1,21 @@
+/* src/components/Admin/Customers.css */
+
+.container {
+    padding: 20px;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.table {
+    min-width: 650px;
+}
+
+.tableHead {
+    background-color: #f5f5f5;
+}
+
+.tableRow:hover {
+    background-color: #e0e0e0;
+}

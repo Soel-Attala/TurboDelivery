@@ -1,36 +1,17 @@
-
-import { AppBar, Toolbar, Container } from '@mui/material';
+import { AppBar, Toolbar, Typography, Button, makeStyles } from '@mui/material';
 import { Link } from 'react-router-dom';
-import { makeStyles } from '@mui/styles';
-import './Header.css';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
     root: {
         flexGrow: 1,
     },
-    appBar: {
-        backgroundColor: theme.palette.background.paper,
-        boxShadow: theme.shadows[4],
-    },
-    logo: {
-        height: 40,
-        marginRight: theme.spacing(2),
-    },
-    menuButton: {
-        marginRight: theme.spacing(2),
-    },
-    menu: {
-        display: 'flex',
-        justifyContent: 'space-between',
+    title: {
         flexGrow: 1,
+        color: '#fff',
     },
     link: {
-        color: theme.palette.text.primary,
+        color: '#fff',
         textDecoration: 'none',
-        margin: theme.spacing(1),
-        '&:hover': {
-            color: theme.palette.primary.main,
-        },
     },
 }));
 
@@ -38,18 +19,29 @@ function Header() {
     const classes = useStyles();
 
     return (
-        <AppBar position="static" className={classes.appBar}>
+        <AppBar position="static" color="primary">
             <Toolbar>
-                <Container className={classes.menu}>
-                    <Link to="/" className="link">
-                        <img src="/path-to-your-logo.png" alt="Logo" className="logo" />
-                    </Link>
-                    <div>
-                        <Link to="/dashboard" className="link">Dashboard</Link>
-                        <Link to="/order-form" className="link">My Orders</Link>
-                        <Link to="/profile" className="link">Profile</Link>
-                    </div>
-                </Container>
+                <Typography variant="h6" className={classes.title}>
+                    Turbo Delivery
+                </Typography>
+                <Button color="inherit">
+                    <Link to="/dashboard" className={classes.link}>Dashboard</Link>
+                </Button>
+                <Button color="inherit">
+                    <Link to="/order-form" className={classes.link}>Order Form</Link>
+                </Button>
+                <Button color="inherit">
+                    <Link to="/order-list" className={classes.link}>Order List</Link>
+                </Button>
+                <Button color="inherit">
+                    <Link to="/profile" className={classes.link}>Profile</Link>
+                </Button>
+                <Button color="inherit">
+                    <Link to="/map" className={classes.link}>Map</Link>
+                </Button>
+                <Button color="inherit">
+                    <Link to="/customers" className={classes.link}>Customers</Link>
+                </Button>
             </Toolbar>
         </AppBar>
     );

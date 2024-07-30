@@ -1,67 +1,57 @@
 import { useState } from 'react';
-import { Container, TextField, Button, Typography } from '@mui/material';
-import NavBar from '../Common/NavBar';
-import Footer from '../Common/Footer';
+import { Box, Button, Container, TextField, Typography } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
+import axios from 'axios';
 
-function Login() {
-    const [credentials, setCredentials] = useState({
-        email: '',
-        password: ''
-    });
+const Login = () => {
+    const navigate = useNavigate();
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
+    const [error, setError] = useState('');
 
-    const handleChange = (e) => {
-        const { name, value } = e.target;
-        setCredentials({ ...credentials, [name]: value });
-    };
-
-    const handleLogin = async (e) => {
-        e.preventDefault();
+    const handleLogin = async (event) => {
+        event.preventDefault();
         try {
-            const response = await fetch('/api/auth/login', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(credentials)
-            });
-            if (response.ok) {
-                alert('Login successful!');
-                // Redirect or handle post-login logic here
-            }
-        } catch (error) {
-            console.error('Error logging in:', error);
+            const response = await axios.post('/api/auth/login', { username, password });
+            localStorage.setItem('token', response.data.token);
+            navigate('/dashboard'); // Redirige al dashboard después de iniciar sesión
+        } catch (err) {
+            setError('Invalid username or password');
         }
     };
 
     return (
-        <div>
-            <NavBar />
-            <Container>
-                <Typography variant="h4">Login</Typography>
+        <Container maxWidth="sm">
+            <Box display="flex" flexDirection="column" alignItems="center" mt={8}>
+                <Typography variant="h4" gutterBottom>
+                    Sign In
+                </Typography>
                 <form onSubmit={handleLogin}>
                     <TextField
-                        label="Email"
-                        name="email"
-                        value={credentials.email}
-                        onChange={handleChange}
+                        label="Username"
                         fullWidth
                         margin="normal"
+                        variant="outlined"
+                        value={username}
+                        onChange={(e) => setUsername(e.target.value)}
                     />
                     <TextField
                         label="Password"
-                        type="password"
-                        name="password"
-                        value={credentials.password}
-                        onChange={handleChange}
                         fullWidth
                         margin="normal"
+                        variant="outlined"
+                        type="password"
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
                     />
-                    <Button type="submit" variant="contained" color="primary">Login</Button>
+                    {error && <Typography color="error">{error}</Typography>}
+                    <Button type="submit" fullWidth variant="contained" color="primary" sx={{ mt: 2 }}>
+                        Sign In
+                    </Button>
                 </form>
-            </Container>
-            <Footer />
-        </div>
+            </Box>
+        </Container>
     );
-}
+};
 
 export default Login;
