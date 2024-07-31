@@ -1,5 +1,6 @@
+import { makeStyles } from '@mui/styles';
+import { Container, Typography } from '@mui/material';
 
-import { Container, Typography, makeStyles } from '@mui/material';
 
 const useStyles = makeStyles((theme) => ({
     footer: {

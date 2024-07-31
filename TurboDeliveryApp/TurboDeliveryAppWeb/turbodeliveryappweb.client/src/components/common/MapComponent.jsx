@@ -13,7 +13,6 @@ const MapComponent = ({ apiKey, orders }) => {
         lng: -68.3301
     };
 
-
     const [locations, setLocations] = useState([]);
 
     useEffect(() => {
