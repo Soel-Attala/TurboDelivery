@@ -20,7 +20,7 @@ function Dashboard() {
 
     const fetchDashboardData = async () => {
         try {
-            const response = await fetch('/api/admin/dashboard'); // Ajusta la URL según tu API
+            const response = await fetch('/api/admin/dashboard'); 
             const result = await response.json();
             setData({
                 orders: result.orders,

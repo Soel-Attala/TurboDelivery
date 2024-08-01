@@ -1,46 +1,42 @@
-import { AppBar, Toolbar, Typography, Button, makeStyles } from '@mui/material';
-import { Link } from 'react-router-dom';
 
-const useStyles = makeStyles(() => ({
-    root: {
-        flexGrow: 1,
-    },
-    title: {
-        flexGrow: 1,
-        color: '#fff',
-    },
-    link: {
-        color: '#fff',
-        textDecoration: 'none',
-    },
-}));
+import { AppBar, Toolbar, Typography, Button } from '@mui/material';
+import { Link } from 'react-router-dom';
+import { styled } from '@mui/system';
+
+const Title = styled(Typography)({
+    flexGrow: 1,
+    color: '#fff',
+});
+
+const StyledLink = styled(Link)({
+    color: '#fff',
+    textDecoration: 'none',
+});
 
 function Header() {
-    const classes = useStyles();
-
     return (
         <AppBar position="static" color="primary">
             <Toolbar>
-                <Typography variant="h6" className={classes.title}>
+                <Title variant="h6">
                     Turbo Delivery
-                </Typography>
+                </Title>
                 <Button color="inherit">
-                    <Link to="/dashboard" className={classes.link}>Dashboard</Link>
+                    <StyledLink to="/dashboard">Dashboard</StyledLink>
                 </Button>
                 <Button color="inherit">
-                    <Link to="/order-form" className={classes.link}>Order Form</Link>
+                    <StyledLink to="/order-form">Order Form</StyledLink>
                 </Button>
                 <Button color="inherit">
-                    <Link to="/order-list" className={classes.link}>Order List</Link>
+                    <StyledLink to="/order-list">Order List</StyledLink>
                 </Button>
                 <Button color="inherit">
-                    <Link to="/profile" className={classes.link}>Profile</Link>
+                    <StyledLink to="/profile">Profile</StyledLink>
                 </Button>
                 <Button color="inherit">
-                    <Link to="/map" className={classes.link}>Map</Link>
+                    <StyledLink to="/map">Map</StyledLink>
                 </Button>
                 <Button color="inherit">
-                    <Link to="/customers" className={classes.link}>Customers</Link>
+                    <StyledLink to="/customers">Customers</StyledLink>
                 </Button>
             </Toolbar>
         </AppBar>

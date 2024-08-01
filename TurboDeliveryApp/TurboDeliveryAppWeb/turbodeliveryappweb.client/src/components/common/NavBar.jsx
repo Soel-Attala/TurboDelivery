@@ -1,51 +1,51 @@
 
-import { AppBar, Toolbar, Typography, Button} from '@mui/material';
-import { Link } from 'react-router-dom';
-import { makeStyles } from '@mui/styles';
+import { AppBar, Toolbar, Typography, Button, Link } from '@mui/material';
+import { styled } from '@mui/system';
+import { NavLink } from 'react-router-dom';
 
-const useStyles = makeStyles(() => ({
-    root: {
-        flexGrow: 1,
-    },
-    title: {
-        flexGrow: 1,
-        color: '#fff',
-    },
-    link: {
-        color: '#fff',
-        textDecoration: 'none',
-    },
-}));
+const Root = styled('div')({
+    flexGrow: 1,
+});
+
+const Title = styled(Typography)({
+    flexGrow: 1,
+    color: '#fff',
+});
+
+const StyledLink = styled(Link)({
+    color: '#fff',
+    textDecoration: 'none',
+});
 
 function Navbar() {
-    const classes = useStyles();
-
     return (
-        <AppBar position="static" color="primary">
-            <Toolbar>
-                <Typography variant="h6" className={classes.title}>
-                    Turbo Delivery
-                </Typography>
-                <Button color="inherit">
-                    <Link to="/dashboard" className={classes.link}>Dashboard</Link>
-                </Button>
-                <Button color="inherit">
-                    <Link to="/order-form" className={classes.link}>Order Form</Link>
-                </Button>
-                <Button color="inherit">
-                    <Link to="/order-list" className={classes.link}>Order List</Link>
-                </Button>
-                <Button color="inherit">
-                    <Link to="/profile" className={classes.link}>Profile</Link>
-                </Button>
-                <Button color="inherit">
-                    <Link to="/map" className={classes.link}>Map</Link>
-                </Button>
-                <Button color="inherit">
-                    <Link to="/customers" className={classes.link}>Customers</Link>
-                </Button>
-            </Toolbar>
-        </AppBar>
+        <Root>
+            <AppBar position="static" color="primary">
+                <Toolbar>
+                    <Title variant="h6">
+                        Turbo Delivery
+                    </Title>
+                    <Button color="inherit">
+                        <StyledLink component={NavLink} to="/dashboard">Dashboard</StyledLink>
+                    </Button>
+                    <Button color="inherit">
+                        <StyledLink component={NavLink} to="/order-form">Order Form</StyledLink>
+                    </Button>
+                    <Button color="inherit">
+                        <StyledLink component={NavLink} to="/order-list">Order List</StyledLink>
+                    </Button>
+                    <Button color="inherit">
+                        <StyledLink component={NavLink} to="/profile">Profile</StyledLink>
+                    </Button>
+                    <Button color="inherit">
+                        <StyledLink component={NavLink} to="/map">Map</StyledLink>
+                    </Button>
+                    <Button color="inherit">
+                        <StyledLink component={NavLink} to="/customers">Customers</StyledLink>
+                    </Button>
+                </Toolbar>
+            </AppBar>
+        </Root>
     );
 }
 

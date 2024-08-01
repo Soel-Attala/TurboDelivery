@@ -1,26 +1,64 @@
-import { useEffect, useState } from 'react';
-import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
+import { useState, useEffect, useCallback } from 'react';
 import PropTypes from 'prop-types';
 
-const MapComponent = ({ apiKey, orders }) => {
-    const mapContainerStyle = {
-        height: '400px',
-        width: '100%'
-    };
+const MapComponent = ({ orders }) => {
+    const [map, setMap] = useState(null);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
 
-    const center = {
-        lat: -34.6177,
-        lng: -68.3301
-    };
+    const apiKey = 'AIzaSyArfkZl9tkhUzoZJDMH-fkcBNlnErthRnE'; 
 
-    const [locations, setLocations] = useState([]);
+    // Función para cargar el script de Google Maps
+    const loadGoogleMapsScript = useCallback(() => {
+        const existingScript = document.getElementById('google-maps-script');
+        if (existingScript) return; 
+
+        const script = document.createElement('script');
+        script.id = 'google-maps-script';
+        script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&libraries=places&callback=initMap`;
+        script.async = true;
+        script.defer = true;
+        script.onload = () => {
+            setLoading(false);
+            window.initMap = () => {
+                const mapInstance = new window.google.maps.Map(document.getElementById('map'), {
+                    center: { lat: -34.6177, lng: -68.3301 },
+                    zoom: 12
+                });
+                setMap(mapInstance);
+            };
+        };
+        script.onerror = () => {
+            setLoading(false);
+            setError('Failed to load Google Maps API');
+        };
+
+        document.body.appendChild(script);
+
+        return () => {
+            const script = document.getElementById('google-maps-script');
+            if (script) {
+                document.body.removeChild(script);
+            }
+        };
+    }, [apiKey]);
 
     useEffect(() => {
-        const geocodeAddresses = async () => {
-            const geocoder = new window.google.maps.Geocoder();
+        loadGoogleMapsScript();
 
-            const locations = await Promise.all(orders.map(order => {
-                return new Promise((resolve, reject) => {
+        return () => {
+            const script = document.getElementById('google-maps-script');
+            if (script) {
+                document.body.removeChild(script);
+            }
+        };
+    }, [loadGoogleMapsScript]);
+
+    useEffect(() => {
+        if (map && orders.length) {
+            const geocoder = new window.google.maps.Geocoder();
+            const geocodePromises = orders.map(order =>
+                new Promise((resolve, reject) => {
                     geocoder.geocode({ address: order.address }, (results, status) => {
                         if (status === 'OK' && results[0]) {
                             resolve({
@@ -32,41 +70,37 @@ const MapComponent = ({ apiKey, orders }) => {
                             reject(new Error('Failed to geocode address'));
                         }
                     });
+                })
+            );
+
+            Promise.all(geocodePromises)
+                .then(locations => {
+                    console.log('Geocoded locations:', locations);
+                    locations.forEach(location => {
+                        new window.google.maps.Marker({
+                            position: location.position,
+                            map: map,
+                            label: location.description
+                        });
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching locations:', error);
                 });
-            }));
-
-            setLocations(locations);
-        };
-
-        if (orders.length) {
-            geocodeAddresses();
         }
-    }, [orders]);
+    }, [map, orders]);
 
-    return (
-        <LoadScript googleMapsApiKey={apiKey}>
-            <GoogleMap
-                mapContainerStyle={mapContainerStyle}
-                center={center}
-                zoom={12}
-            >
-                {locations.map(location => (
-                    <Marker
-                        key={location.id}
-                        position={location.position}
-                        label={location.description}
-                    />
-                ))}
-            </GoogleMap>
-        </LoadScript>
-    );
+    if (loading) return <div>Loading...</div>;
+    if (error) return <div>Error: {error}</div>;
+
+    return <div id="map" style={{ height: '100vh', width: '100%' }}></div>;
 };
 
+// Definición de PropTypes
 MapComponent.propTypes = {
-    apiKey: PropTypes.string.isRequired,
     orders: PropTypes.arrayOf(
         PropTypes.shape({
-            id: PropTypes.number.isRequired,
+            id: PropTypes.string.isRequired,
             address: PropTypes.string.isRequired,
             description: PropTypes.string
         })

@@ -1,14 +1,12 @@
-import  { useState, useEffect } from 'react';
-import { Container, Typography, makeStyles } from '@mui/material';
+import { useState, useEffect } from 'react';
+import { Container, Typography } from '@mui/material';
+import { styled } from '@mui/system';
 
-const useStyles = makeStyles((theme) => ({
-    root: {
-        padding: theme.spacing(3),
-    },
+const RootContainer = styled(Container)(({ theme }) => ({
+    padding: theme.spacing(3),
 }));
 
 function OrderList() {
-    const classes = useStyles();
     const [orders, setOrders] = useState([]);
 
     useEffect(() => {
@@ -26,14 +24,14 @@ function OrderList() {
     };
 
     return (
-        <Container className={classes.root}>
+        <RootContainer>
             <Typography variant="h1">Order List</Typography>
             <ul>
                 {orders.map(order => (
                     <li key={order.id}>{order.clientName} - {order.items}</li>
                 ))}
             </ul>
-        </Container>
+        </RootContainer>
     );
 }
 

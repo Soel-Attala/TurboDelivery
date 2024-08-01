@@ -1,20 +1,17 @@
 
-import { Container, Typography, makeStyles } from '@mui/material';
+import { Container, Typography } from '@mui/material';
+import { styled } from '@mui/system';
 
-const useStyles = makeStyles((theme) => ({
-    root: {
-        padding: theme.spacing(3),
-    },
+const RootContainer = styled(Container)(({ theme }) => ({
+    padding: theme.spacing(3),
 }));
 
 function OrderForm() {
-    const classes = useStyles();
-
     return (
-        <Container className={classes.root}>
+        <RootContainer>
             <Typography variant="h1">Order Form</Typography>
             {/* Add order form fields here */}
-        </Container>
+        </RootContainer>
     );
 }
 

@@ -1,16 +1,8 @@
 import { useState, useEffect } from 'react';
-import { Container, Typography, makeStyles } from '@mui/material';
+import { Container, Typography, Box } from '@mui/material';
 import './Customers.css';
 
-
-const useStyles = makeStyles((theme) => ({
-    root: {
-        padding: theme.spacing(3),
-    },
-}));
-
 function Customers() {
-    const classes = useStyles();
     const [customers, setCustomers] = useState([]);
 
     useEffect(() => {
@@ -19,7 +11,7 @@ function Customers() {
 
     const fetchCustomers = async () => {
         try {
-            const response = await fetch('/api/customers');
+            const response = await fetch('/api/userlist');
             const result = await response.json();
             setCustomers(result);
         } catch (error) {
@@ -28,13 +20,17 @@ function Customers() {
     };
 
     return (
-        <Container className={classes.root}>
-            <Typography variant="h1">Customers</Typography>
-            <ul>
+        <Container sx={{ padding: 3 }}>
+            <Typography variant="h1" gutterBottom>
+                Customers
+            </Typography>
+            <Box component="ul" sx={{ listStyleType: 'none', padding: 0 }}>
                 {customers.map(customer => (
-                    <li key={customer.id}>{customer.name} - {customer.email}</li>
+                    <Box component="li" key={customer.id} sx={{ marginBottom: 1 }}>
+                        {customer.name} - {customer.email}
+                    </Box>
                 ))}
-            </ul>
+            </Box>
         </Container>
     );
 }
