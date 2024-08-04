@@ -9,14 +9,17 @@
     <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">vite build</PackageJsonScriptsBuild>
     <PackageJsonScriptsLint Condition="$(PackageJsonScriptsLint) == ''">eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0</PackageJsonScriptsLint>
     <PackageJsonScriptsPreview Condition="$(PackageJsonScriptsPreview) == ''">vite preview</PackageJsonScriptsPreview>
+    <PackageJsonDependenciesDateIoDateFns Condition="$(PackageJsonDependenciesDateIoDateFns) == ''">^3.0.0</PackageJsonDependenciesDateIoDateFns>
     <PackageJsonDependenciesEmotionReact Condition="$(PackageJsonDependenciesEmotionReact) == ''">^11.13.0</PackageJsonDependenciesEmotionReact>
     <PackageJsonDependenciesEmotionStyled Condition="$(PackageJsonDependenciesEmotionStyled) == ''">^11.13.0</PackageJsonDependenciesEmotionStyled>
     <PackageJsonDependenciesMuiIconsMaterial Condition="$(PackageJsonDependenciesMuiIconsMaterial) == ''">^5.16.6</PackageJsonDependenciesMuiIconsMaterial>
     <PackageJsonDependenciesMuiLab Condition="$(PackageJsonDependenciesMuiLab) == ''">^5.0.0-alpha.173</PackageJsonDependenciesMuiLab>
-    <PackageJsonDependenciesMuiMaterial Condition="$(PackageJsonDependenciesMuiMaterial) == ''">^5.16.5</PackageJsonDependenciesMuiMaterial>
+    <PackageJsonDependenciesMuiMaterial Condition="$(PackageJsonDependenciesMuiMaterial) == ''">^5.16.6</PackageJsonDependenciesMuiMaterial>
+    <PackageJsonDependenciesMuiXDatePickers Condition="$(PackageJsonDependenciesMuiXDatePickers) == ''">^7.12.0</PackageJsonDependenciesMuiXDatePickers>
     <PackageJsonDependenciesReactGoogleMapsApi Condition="$(PackageJsonDependenciesReactGoogleMapsApi) == ''">^2.19.3</PackageJsonDependenciesReactGoogleMapsApi>
     <PackageJsonDependenciesAxios Condition="$(PackageJsonDependenciesAxios) == ''">^1.7.2</PackageJsonDependenciesAxios>
     <PackageJsonDependenciesChartJs Condition="$(PackageJsonDependenciesChartJs) == ''">^4.4.3</PackageJsonDependenciesChartJs>
+    <PackageJsonDependenciesDateFns Condition="$(PackageJsonDependenciesDateFns) == ''">^3.6.0</PackageJsonDependenciesDateFns>
     <PackageJsonDependenciesPropTypes Condition="$(PackageJsonDependenciesPropTypes) == ''">^15.8.1</PackageJsonDependenciesPropTypes>
     <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">^18.3.1</PackageJsonDependenciesReact>
     <PackageJsonDependenciesReactChartjs2 Condition="$(PackageJsonDependenciesReactChartjs2) == ''">^5.2.0</PackageJsonDependenciesReactChartjs2>

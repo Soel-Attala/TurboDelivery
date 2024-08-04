@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodeliveryappweb\\turbodeliveryappweb.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|solutionrelative:turbodeliveryappweb\\turbodeliveryappweb.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodeliveryappweb\\turbodeliveryappweb.client\\src\\components\\client\\orderform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|solutionrelative:turbodeliveryappweb\\turbodeliveryappweb.client\\src\\components\\client\\orderform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodeliveryappweb\\turbodeliveryappweb.client\\src\\components\\common\\mapcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|solutionrelative:turbodeliveryappweb\\turbodeliveryappweb.client\\src\\components\\common\\mapcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodeliveryappweb\\turbodeliveryappweb.client\\src\\components\\common\\mapcomponent.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|solutionrelative:turbodeliveryappweb\\turbodeliveryappweb.client\\src\\components\\common\\mapcomponent.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|c:\\users\\usuario\\desktop\\programaci\u00F3n\\turbodelivery\\turbodeliveryapp\\turbodeliveryappweb\\turbodeliveryappweb.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{18B98508-0AC9-4444-99C8-E01711BE9CF9}|TurboDeliveryAppWeb\\turbodeliveryappweb.client\\turbodeliveryappweb.client.esproj|solutionrelative:turbodeliveryappweb\\turbodeliveryappweb.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 100,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderForm.jsx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\Client\\OrderForm.jsx",
+              "RelativeDocumentMoniker": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\Client\\OrderForm.jsx",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\Client\\OrderForm.jsx",
+              "RelativeToolTip": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\Client\\OrderForm.jsx",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAQwBEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-08-04T03:59:29.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MapComponent.css",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\Common\\MapComponent.css",
+              "RelativeDocumentMoniker": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\Common\\MapComponent.css",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\Common\\MapComponent.css",
+              "RelativeToolTip": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\Common\\MapComponent.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-04T03:48:02.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\App.css",
+              "RelativeDocumentMoniker": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\App.css",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\App.css",
+              "RelativeToolTip": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\App.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-04T03:45:26.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\App.jsx",
+              "RelativeDocumentMoniker": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\App.jsx",
+              "RelativeToolTip": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\App.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-08-04T03:35:39.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MapComponent.jsx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\Common\\MapComponent.jsx",
+              "RelativeDocumentMoniker": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\Common\\MapComponent.jsx",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Programaci\u00F3n\\TurboDelivery\\TurboDeliveryApp\\TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\Common\\MapComponent.jsx",
+              "RelativeToolTip": "TurboDeliveryAppWeb\\turbodeliveryappweb.client\\src\\components\\Common\\MapComponent.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-08-04T03:27:55.902Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

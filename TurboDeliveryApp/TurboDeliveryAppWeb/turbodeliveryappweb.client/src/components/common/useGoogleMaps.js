@@ -1,4 +1,4 @@
-// useGoogleMaps.js
+
 import { useEffect, useState } from 'react';
 
 const useGoogleMaps = (apiKey, callback) => {
