@@ -3,6 +3,7 @@
 /* Contenedor de la página principal */
 .home-container {
     padding: 20px;
+        overflow: hidden;
 }
 
 /* Títulos */

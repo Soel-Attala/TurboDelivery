@@ -13,7 +13,6 @@
     <TypeScriptConfiguration Remove="src\services\**" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="src\components\Client\" />
     <Folder Include="src\components\Courier\" />
     <Folder Include="src\components\Admin\" />
     <Folder Include="src\components\Auth\" />

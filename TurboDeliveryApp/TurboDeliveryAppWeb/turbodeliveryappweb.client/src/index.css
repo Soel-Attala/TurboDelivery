@@ -23,12 +23,32 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; /* Cambia a columna si estás trabajando con un formulario vertical */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    background-color: #242424; /* Fondo oscuro */
+    color: rgba(255, 255, 255, 0.87); /* Texto claro */
+
 }
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #ffffff; /* Fondo blanco */
+    color: #213547; /* Color del texto */
+}
+
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #ffffff;
+        color: #213547;
+    }
+}
+
 
 h1 {
   font-size: 3.2em;

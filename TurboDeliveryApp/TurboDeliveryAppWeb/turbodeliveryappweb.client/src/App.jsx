@@ -4,7 +4,7 @@ import './App.css';
 
 import Home from './components/Common/Home';
 import OrderForm from './components/Client/OrderForm';
-import OrderList from './components/Client/OrderList';
+import CustomerPanel from './components/Client/CustomerPanel';
 import OrderDetail from './components/Courier/OrderDetail';
 import Dashboard from './components/Admin/Dashboard';
 import Login from './components/Auth/Login';
@@ -47,7 +47,7 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/order-form" element={<OrderForm />} />
                     <Route path="/customers" element={<Customers />} />
-                    <Route path="/order-list" element={<OrderList />} />
+                    <Route path="/customer-panel" element={<CustomerPanel />} />
                     <Route path="/order-detail/:id" element={<OrderDetail />} />
                     <Route path="/dashboard" element={<Dashboard />} />
                     <Route path="/login" element={<Login />} />

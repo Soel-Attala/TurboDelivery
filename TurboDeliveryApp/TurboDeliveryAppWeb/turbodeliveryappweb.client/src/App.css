@@ -1,13 +1,20 @@
-﻿#root {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
+﻿html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /* Evita las barras de desplazamiento */
 }
 
-th, td {
-    padding-left: 1rem;
-    padding-right: 1rem;
+#root {
+    height: 100%;
+    overflow: hidden; /* Evita las barras de desplazamiento en el contenedor principal */
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden; /* Asegura que el contenido se ajuste a la altura de la pantalla */
 }
 
 .map-container {
