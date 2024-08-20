@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Container, TextField, Button, Typography, Alert } from '@mui/material';
 import axios from '../Config/axiosConfig';
+import './Register.css';
 
 
 const Register = () => {
@@ -31,10 +32,10 @@ const Register = () => {
         setSuccess('');
 
         try {
-            const response = await axios.post('/user/CreateUser', formData);
+            const response = await axios.post('/api/user/CreateUser', formData);
             const data = response.data;
             setSuccess(data.message);
-            // Limpiar el formulario si es necesario
+           
             setFormData({
                 username: '',
                 password: '',
