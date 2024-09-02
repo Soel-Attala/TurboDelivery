@@ -1,94 +1,99 @@
-import { useState, useEffect } from 'react';
-import { Container, Grid, Paper, Typography, Card, CardContent } from '@mui/material';
-import { Line } from 'react-chartjs-2';
-import { Chart as ChartJS, Title, Tooltip, Legend, LineElement, CategoryScale, LinearScale } from 'chart.js';
 
-// Register Chart.js components
-ChartJS.register(Title, Tooltip, Legend, LineElement, CategoryScale, LinearScale);
+import { Box, Typography } from '@mui/material';
+import { createTheme } from '@mui/material/styles'; // Añadir la importación
+import DashboardIcon from '@mui/icons-material/Dashboard';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import BarChartIcon from '@mui/icons-material/BarChart';
+import DescriptionIcon from '@mui/icons-material/Description';
+import LayersIcon from '@mui/icons-material/Layers';
+import { AppProvider } from '@toolpad/core/AppProvider';
+import { DashboardLayout } from '@toolpad/core/DashboardLayout';
 
-function Dashboard() {
-    const [data, setData] = useState({
-        orders: [],
-        deliveries: [],
-        costs: 0,
-        revenue: 0,
-    });
-
-    useEffect(() => {
-        fetchDashboardData();
-    }, []);
-
-    const fetchDashboardData = async () => {
-        try {
-            const response = await fetch('/api/admin/dashboard'); 
-            const result = await response.json();
-            setData({
-                orders: result.orders,
-                deliveries: result.deliveries,
-                costs: result.costs,
-                revenue: result.revenue,
-            });
-        } catch (error) {
-            console.error('Error fetching dashboard data:', error);
-        }
-    };
-
-    // Example chart data
-    const chartData = {
-        labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
-        datasets: [
+const NAVIGATION = [
+    {
+        kind: 'header',
+        title: 'Main items',
+    },
+    {
+        segment: 'dashboard',
+        title: 'Dashboard',
+        icon: <DashboardIcon />,
+    },
+    {
+        segment: 'orders',
+        title: 'Orders',
+        icon: <ShoppingCartIcon />,
+    },
+    {
+        kind: 'divider',
+    },
+    {
+        kind: 'header',
+        title: 'Analytics',
+    },
+    {
+        segment: 'reports',
+        title: 'Reports',
+        icon: <BarChartIcon />,
+        children: [
             {
-                label: 'Revenue',
-                data: [0, 10, 5, 2, 20, 30, 45],
-                borderColor: '#3f51b5',
-                backgroundColor: 'rgba(63, 81, 181, 0.2)',
+                segment: 'sales',
+                title: 'Sales',
+                icon: <DescriptionIcon />,
+            },
+            {
+                segment: 'traffic',
+                title: 'Traffic',
+                icon: <DescriptionIcon />,
             },
         ],
-    };
+    },
+    {
+        segment: 'integrations',
+        title: 'Integrations',
+        icon: <LayersIcon />,
+    },
+];
 
+const demoTheme = createTheme({
+    cssVariables: {
+        colorSchemeSelector: 'data-toolpad-color-scheme',
+    },
+    colorSchemes: { light: true, dark: true },
+    breakpoints: {
+        values: {
+            xs: 0,
+            sm: 600,
+            md: 600,
+            lg: 1200,
+            xl: 1536,
+        },
+    },
+});
+
+const Dashboard = () => {
     return (
-        <Container>
-            <Typography variant="h4" gutterBottom>
-                Dashboard
-            </Typography>
-            <Grid container spacing={3}>
-                <Grid item xs={12} sm={6} md={4}>
-                    <Paper elevation={3} style={{ padding: '16px' }}>
-                        <Typography variant="h6">Total Orders</Typography>
-                        <Typography variant="h4">{data.orders.length}</Typography>
-                    </Paper>
-                </Grid>
-                <Grid item xs={12} sm={6} md={4}>
-                    <Paper elevation={3} style={{ padding: '16px' }}>
-                        <Typography variant="h6">Total Deliveries</Typography>
-                        <Typography variant="h4">{data.deliveries.length}</Typography>
-                    </Paper>
-                </Grid>
-                <Grid item xs={12} sm={6} md={4}>
-                    <Paper elevation={3} style={{ padding: '16px' }}>
-                        <Typography variant="h6">Costs</Typography>
-                        <Typography variant="h4">${data.costs}</Typography>
-                    </Paper>
-                </Grid>
-                <Grid item xs={12} sm={6} md={4}>
-                    <Paper elevation={3} style={{ padding: '16px' }}>
-                        <Typography variant="h6">Revenue</Typography>
-                        <Typography variant="h4">${data.revenue}</Typography>
-                    </Paper>
-                </Grid>
-                <Grid item xs={12}>
-                    <Card>
-                        <CardContent>
-                            <Typography variant="h6" gutterBottom>
-                                Revenue Over Time
-                            </Typography>
-                            <Line data={chartData} />
-                        </CardContent>
-                    </Card>
-                </Grid>
-            </Grid>
-        </Container>
+        <AppProvider
+            navigation={NAVIGATION}
+            router={{ pathname: '/dashboard', searchParams: new URLSearchParams(), navigate: () => { } }}
+            theme={demoTheme}
+        >
+            <DashboardLayout>
+                <Box
+                    sx={{
+                        py: 4,
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'center',
+                        textAlign: 'center',
+                    }}
+                >
+                    <Typography variant="h4">Dashboard</Typography>
+                    <Typography>Welcome to the dashboard!</Typography>
+                </Box>
+            </DashboardLayout>
+        </AppProvider>
     );
-}
+};
 
 export default Dashboard;

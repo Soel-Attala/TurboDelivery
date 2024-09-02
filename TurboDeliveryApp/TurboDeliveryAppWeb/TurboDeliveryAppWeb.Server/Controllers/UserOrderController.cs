@@ -41,7 +41,7 @@ namespace TurboDeliveryAppWeb.Server.Controllers
             }
         }
 
-        [HttpPut("{id}/UpdateRelationship")]
+        [HttpPut("UpdateRelationship/{id}")]
         public async Task<IActionResult> UpdateRelationship(int id, [FromBody] UserOrder updatedUserOrder)
         {
             try
@@ -63,7 +63,7 @@ namespace TurboDeliveryAppWeb.Server.Controllers
             }
         }
 
-        [HttpDelete("{id}/DeleteRelationship")]
+        [HttpDelete("/DeleteRelationship/{id}")]
         public async Task<IActionResult> DeleteRelationship(int id)
         {
             try
@@ -85,7 +85,7 @@ namespace TurboDeliveryAppWeb.Server.Controllers
             }
         }
 
-        [HttpGet("/GetAllRelationships")]
+        [HttpGet("GetAllRelationships/{id}")]
         public IActionResult GetAllRelationships()
         {
             try
@@ -99,7 +99,7 @@ namespace TurboDeliveryAppWeb.Server.Controllers
             }
         }
 
-        [HttpGet("/GetRelationshipsByClientId/{clientId}")]
+        [HttpGet("GetRelationshipsByClientId/{clientId}")]
         public IActionResult GetRelationshipsByClientId(int clientId)
         {
             try
@@ -113,7 +113,7 @@ namespace TurboDeliveryAppWeb.Server.Controllers
             }
         }
 
-        [HttpGet("/GetRelationshipsByEmployeeId/{employeeId}")]
+        [HttpGet("GetRelationshipsByEmployeeId/{employeeId}")]
         public IActionResult GetRelationshipsByEmployeeId(int employeeId)
         {
             try

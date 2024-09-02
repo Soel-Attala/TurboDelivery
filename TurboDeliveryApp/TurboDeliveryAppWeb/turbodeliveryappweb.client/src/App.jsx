@@ -4,7 +4,8 @@ import './App.css';
 
 import Home from './components/Common/Home';
 import OrderForm from './components/Client/OrderForm';
-import CustomerPanel from './components/Client/CustomerPanel';
+import RequestDelivery from './components/Client/RequestDelivery';
+import ScheduleFixedDelivery from './components/Client/ScheduleFixedDelivery';
 import OrderDetail from './components/Courier/OrderDetail';
 import Dashboard from './components/Admin/Dashboard';
 import Login from './components/Auth/Login';
@@ -47,7 +48,8 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/order-form" element={<OrderForm />} />
                     <Route path="/customers" element={<Customers />} />
-                    <Route path="/customer-panel" element={<CustomerPanel />} />
+                    <Route path="/request-delivery" element={<RequestDelivery />} />
+                    <Route path="/schedule-delivery" element={<ScheduleFixedDelivery />} />
                     <Route path="/order-detail/:id" element={<OrderDetail />} />
                     <Route path="/dashboard" element={<Dashboard />} />
                     <Route path="/login" element={<Login />} />

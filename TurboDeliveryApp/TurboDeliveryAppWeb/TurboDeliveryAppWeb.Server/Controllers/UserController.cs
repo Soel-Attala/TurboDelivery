@@ -19,7 +19,7 @@ namespace TurboDeliveryAppWeb.Server.Controllers
             _userService = userService;
         }
 
-        [HttpGet("{id}/GetName")]
+        [HttpGet("GetName/{id}")]
         public async Task<IActionResult> GetUserName(int id)
         {
             var userName = await _userService.GetName(id);
@@ -34,7 +34,7 @@ namespace TurboDeliveryAppWeb.Server.Controllers
             }
         }
 
-        [HttpPost("/CreateUser")]
+        [HttpPost("CreateUser")]
         public async Task<IActionResult> CreateUser([FromBody] User user)
         {
             try
@@ -56,7 +56,7 @@ namespace TurboDeliveryAppWeb.Server.Controllers
             }
         }
 
-        [HttpGet("/UserList")]
+        [HttpGet("UserList")]
         public IActionResult GetUsersList()
         {
             try
@@ -70,7 +70,7 @@ namespace TurboDeliveryAppWeb.Server.Controllers
             }
         }
 
-        [HttpGet("{id}/GetUser")]
+        [HttpGet("GetUser{id}")]
         public IActionResult GetUserById(int id)
         {
             try
@@ -92,7 +92,7 @@ namespace TurboDeliveryAppWeb.Server.Controllers
             }
         }
 
-        [HttpPut("{id}/EditUser")]
+        [HttpPut("EditUser/{id}")]
         public async Task<IActionResult> EditUser(int id, [FromBody] User updatedUserData)
         {
             try
@@ -121,7 +121,7 @@ namespace TurboDeliveryAppWeb.Server.Controllers
             }
         }
 
-        [HttpDelete("{id}/DeleteUser")]
+        [HttpDelete("DeleteUser/{id}")]
         public async Task<IActionResult> DeleteUser(int id)
         {
             try

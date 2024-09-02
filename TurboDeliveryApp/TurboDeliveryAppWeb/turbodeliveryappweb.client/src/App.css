@@ -2,19 +2,20 @@
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden; /* Evita las barras de desplazamiento */
+    overflow: hidden;
 }
 
 #root {
     height: 100%;
-    overflow: hidden; /* Evita las barras de desplazamiento en el contenedor principal */
+    overflow: hidden;
+    
 }
 
 .App {
     display: flex;
     flex-direction: column;
     height: 100%;
-    overflow: hidden; /* Asegura que el contenido se ajuste a la altura de la pantalla */
+    overflow: hidden; 
 }
 
 .map-container {

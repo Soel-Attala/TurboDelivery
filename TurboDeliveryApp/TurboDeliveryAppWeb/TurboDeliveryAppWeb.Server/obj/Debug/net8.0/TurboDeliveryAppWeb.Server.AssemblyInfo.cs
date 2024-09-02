@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TurboDeliveryAppWeb.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac3b73812b605ab40c485f893ca181f957314e36")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfa047ccc40e5572244a824d7795b250b3ec62ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("TurboDeliveryAppWeb.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TurboDeliveryAppWeb.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

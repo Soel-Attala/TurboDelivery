@@ -1,15 +1,15 @@
 import { Drawer, List, ListItem, ListItemText, Divider, IconButton, Typography } from '@mui/material';
 import { styled } from '@mui/system';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
-import PropTypes from 'prop-types'; // Importa PropTypes
+import PropTypes from 'prop-types';
 
 const drawerWidth = 240;
 
 const Root = styled('div')({
     display: 'flex',
-    height: '100vh', // Asegura que el contenedor ocupe toda la altura de la ventana
+    height: '100vh',
 });
 
 const DrawerContainer = styled(Drawer)(({ theme }) => ({
@@ -18,30 +18,46 @@ const DrawerContainer = styled(Drawer)(({ theme }) => ({
     '& .MuiDrawer-paper': {
         width: drawerWidth,
         boxSizing: 'border-box',
-        backgroundColor: '#fff', // Cambia el color de fondo a blanco
-        color: '#000', // Cambia el color del texto a negro
-        height: '100%', // Asegura que el Drawer ocupe toda la altura
+        backgroundColor: '#fff',
+        color: '#000',
+        height: '100%',
     },
 }));
 
 const Title = styled(Typography)({
     textAlign: 'center',
     margin: '16px 0',
-    color: '#000', // Cambia el color del texto a negro
+    color: '#000',
 });
 
 const HideButton = styled(IconButton)(({ open }) => ({
     position: 'absolute',
     top: '50%',
-    right: open ? 0 : -40, // Ajusta la posición según el estado abierto o cerrado
-    transform: 'translateY(-50%)', // Centra verticalmente
-    zIndex: 1200, // Asegúrate de que esté por encima del Drawer
-    backgroundColor: '#fff', // Fondo blanco
-    border: '1px solid #000', // Borde negro
-    borderRadius: '50%', // Círculo
+    right: open ? 0 : -40,
+    transform: 'translateY(-50%)',
+    zIndex: 1200,
+    backgroundColor: '#fff',
+    border: '1px solid #000',
+    borderRadius: '50%',
 }));
 
 function Sidebar({ open, onClose }) {
+    const navigate = useNavigate();
+
+    const handleLogout = () => {
+        // Elimina el token de autenticación u otra información sensible
+        localStorage.removeItem('authToken');
+
+        // Redirige al usuario a la página de login
+        navigate('/login', { replace: true });
+
+        // Previene que el usuario pueda volver con la flecha atrás del navegador
+        window.history.pushState(null, null, window.location.href);
+        window.onpopstate = function () {
+            navigate('/login');
+        };
+    };
+
     return (
         <Root>
             <DrawerContainer
@@ -64,12 +80,14 @@ function Sidebar({ open, onClose }) {
                     <ListItem button component={NavLink} to="/dashboard">
                         <ListItemText primary="Dashboard" />
                     </ListItem>
-
                     <ListItem button component={NavLink} to="/order-form">
                         <ListItemText primary="Cargar Orden" />
                     </ListItem>
-                    <ListItem button component={NavLink} to="/customer-panel">
+                    <ListItem button component={NavLink} to="/request-delivery">
                         <ListItemText primary="Solicitar Delivery" />
+                    </ListItem>
+                    <ListItem button component={NavLink} to="/schedule-delivery">
+                        <ListItemText primary="Programar Delivery Fijo" />
                     </ListItem>
                     <ListItem button component={NavLink} to="/map">
                         <ListItemText primary="Mapa" />
@@ -77,11 +95,9 @@ function Sidebar({ open, onClose }) {
                     <ListItem button component={NavLink} to="/customers">
                         <ListItemText primary="Clientes" />
                     </ListItem>
-                    <ListItem button component={NavLink} to="/login">
+                    <ListItem button onClick={handleLogout}>
                         <ListItemText primary="Cerrar Sesión" />
                     </ListItem>
-
-
                 </List>
             </DrawerContainer>
             {!open && (
@@ -93,7 +109,6 @@ function Sidebar({ open, onClose }) {
     );
 }
 
-// Define la validación de las props
 Sidebar.propTypes = {
     open: PropTypes.bool.isRequired,
     onClose: PropTypes.func.isRequired,

@@ -1,18 +1,18 @@
 /* Home.css */
 
-/* Contenedor de la página principal */
+
 .home-container {
     padding: 20px;
         overflow: hidden;
 }
 
-/* Títulos */
+
 .home-title {
     font-size: 2rem;
     margin-bottom: 20px;
 }
 
-/* Descripción */
+
 .home-description {
     font-size: 1.2rem;
     margin-bottom: 20px;

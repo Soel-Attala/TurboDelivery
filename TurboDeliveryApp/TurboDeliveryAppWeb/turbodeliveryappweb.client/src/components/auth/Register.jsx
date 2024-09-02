@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import { Container, TextField, Button, Typography, Alert } from '@mui/material';
+import { Container, TextField, Button, Typography, Snackbar } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 import axios from '../Config/axiosConfig';
 import './Register.css';
-
 
 const Register = () => {
     const [formData, setFormData] = useState({
@@ -17,6 +17,8 @@ const Register = () => {
     const [error, setError] = useState('');
     const [success, setSuccess] = useState('');
     const [loading, setLoading] = useState(false);
+    const [snackbarOpen, setSnackbarOpen] = useState(false);
+    const navigate = useNavigate();
 
     const handleChange = (e) => {
         setFormData({
@@ -32,10 +34,11 @@ const Register = () => {
         setSuccess('');
 
         try {
-            const response = await axios.post('/api/user/CreateUser', formData);
+            const response = await axios.post('/user/CreateUser', formData);
             const data = response.data;
             setSuccess(data.message);
-           
+            setSnackbarOpen(true);
+
             setFormData({
                 username: '',
                 password: '',
@@ -45,47 +48,74 @@ const Register = () => {
                 address: '',
                 phoneNumber: '',
             });
+
+            setTimeout(() => {
+                navigate('/login');
+            }, 1000);
         } catch (error) {
-            setError(error.response.data.message);
+            if (error.response) {
+                if (error.response.status === 409) { 
+                    setError('Username or email already exists.');
+                    setSnackbarOpen(true);
+                } else if (error.response.status === 400) { 
+                    setError('Please check your inputs.');
+                } else {
+                    setError('Registration failed. Please try again.');
+                }
+            } else {
+                setError('An unexpected error occurred.');
+            }
         } finally {
             setLoading(false);
         }
     };
 
+    const handleSnackbarClose = () => {
+        setSnackbarOpen(false);
+    };
+
     return (
-        <Container maxWidth="sm">
+        <Container className="register-container">
             <Typography variant="h4" gutterBottom>Register</Typography>
-            <form onSubmit={handleRegister}>
+            <form className="register-form" onSubmit={handleRegister}>
                 <TextField
                     label="Username"
                     name="username"
                     fullWidth
-                    margin="normal"
+                    margin="dense"
+                    className="input-field"
                     value={formData.username}
                     onChange={handleChange}
+                    required
                 />
                 <TextField
                     label="Password"
                     name="password"
                     type="password"
                     fullWidth
-                    margin="normal"
+                    margin="dense"
+                    className="input-field"
                     value={formData.password}
                     onChange={handleChange}
+                    required
                 />
                 <TextField
                     label="Email"
                     name="email"
+                    type="email" 
                     fullWidth
-                    margin="normal"
+                    margin="dense"
+                    className="input-field"
                     value={formData.email}
                     onChange={handleChange}
+                    required
                 />
                 <TextField
                     label="First Name"
                     name="firstName"
                     fullWidth
-                    margin="normal"
+                    margin="dense"
+                    className="input-field"
                     value={formData.firstName}
                     onChange={handleChange}
                 />
@@ -93,7 +123,8 @@ const Register = () => {
                     label="Last Name"
                     name="lastName"
                     fullWidth
-                    margin="normal"
+                    margin="dense"
+                    className="input-field"
                     value={formData.lastName}
                     onChange={handleChange}
                 />
@@ -101,7 +132,8 @@ const Register = () => {
                     label="Address"
                     name="address"
                     fullWidth
-                    margin="normal"
+                    margin="dense"
+                    className="input-field"
                     value={formData.address}
                     onChange={handleChange}
                 />
@@ -109,16 +141,21 @@ const Register = () => {
                     label="Phone Number"
                     name="phoneNumber"
                     fullWidth
-                    margin="normal"
+                    margin="dense"
+                    className="input-field"
                     value={formData.phoneNumber}
                     onChange={handleChange}
                 />
-                {error && <Alert severity="error">{error}</Alert>}
-                {success && <Alert severity="success">{success}</Alert>}
-                <Button type="submit" variant="contained" color="primary" fullWidth disabled={loading}>
+                <Button type="submit" variant="contained" color="primary" fullWidth className="register-button" disabled={loading}>
                     {loading ? 'Loading...' : 'Register'}
                 </Button>
             </form>
+            <Snackbar
+                open={snackbarOpen}
+                autoHideDuration={3000}
+                onClose={handleSnackbarClose}
+                message={success ? "Registration successful!" : error}
+            />
         </Container>
     );
 };

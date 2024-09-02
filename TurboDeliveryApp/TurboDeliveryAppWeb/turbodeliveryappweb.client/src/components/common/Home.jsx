@@ -10,25 +10,25 @@ const MainContent = styled('main')(({ open }) => ({
     justifyContent: 'center',
     alignItems: 'center',
     padding: '200px',
-    marginLeft: open ? 240 : 240, // Ajusta según si el Sidebar está abierto o cerrado
-    transition: 'margin-left 0.3s', // Transición suave
-    height: 'calc(100vh - 56px)', // Ajusta la altura para ocupar la pantalla completa sin scroll vertical
-    overflow: 'hidden', // Oculta el overflow para evitar barras de desplazamiento
+    marginLeft: open ? 240 : 240, 
+    transition: 'margin-left 0.3s', 
+    height: 'calc(100vh - 56px)', 
+    overflow: 'hidden', 
 }));
 
 const Layout = styled('div')({
     display: 'flex',
     flexDirection: 'column',
-    height: '100vh', // Asegura que el contenedor ocupe toda la altura
+    height: '100vh', 
 });
 
 const ContentContainer = styled('div')({
     display: 'flex',
     flexDirection: 'column',
-    alignItems: 'center', // Centra horizontalmente
-    justifyContent: 'center', // Centra verticalmente
-    height: '100%', // Asegura que el contenedor ocupe toda la altura disponible
-    textAlign: 'center', // Alinea el texto en el centro
+    alignItems: 'center', 
+    justifyContent: 'center', 
+    height: '100%', 
+    textAlign: 'center',
 });
 
 function Home() {

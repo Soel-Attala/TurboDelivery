@@ -1,6 +1,6 @@
-import { useState } from 'react';
 import { Container, Typography, Button, List, ListItem, ListItemText } from '@mui/material';
 import { styled } from '@mui/system';
+import './RequestDelivery.css';
 
 const PanelContainer = styled(Container)({
     padding: '80px',
@@ -23,30 +23,23 @@ const OrderList = styled(List)({
     padding: '8px',
 });
 
-const StyledButton = styled(Button)({
-    marginRight: '10px', // Añade un margen derecho al primer botón
-});
-
-function CustomerPanel() {
-    const [orders] = useState([
+function RequestDelivery() {
+    const orders = [
         { id: 1, description: 'Pedido 1 - Descripción del pedido' },
         { id: 2, description: 'Pedido 2 - Descripción del pedido' },
         { id: 3, description: 'Pedido 3 - Descripción del pedido' },
         { id: 4, description: 'Pedido 4 - Descripción del pedido' },
         { id: 5, description: 'Pedido 5 - Descripción del pedido' },
-    ]);
+    ];
 
     return (
         <PanelContainer>
             <Typography variant="h5" gutterBottom marginBottom="20px">
-                Panel del Cliente
+                Pedir Delivery
             </Typography>
             <ButtonContainer>
-                <StyledButton variant="contained" color="primary">
+                <Button variant="contained" color="primary">
                     Pedir Delivery
-                </StyledButton>
-                <Button variant="contained" color="secondary">
-                    Pedir Delivery Fijo
                 </Button>
             </ButtonContainer>
             <Typography variant="h6">Mis Pedidos</Typography>
@@ -61,4 +54,4 @@ function CustomerPanel() {
     );
 }
 
-export default CustomerPanel;
+export default RequestDelivery;
